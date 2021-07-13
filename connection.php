@@ -1,12 +1,12 @@
 
 	<?php
-	$hostName = 'localhost';
+	$hostName = 'us-cdbr-east-04.cleardb.com';
 	// khai báo biến username
-	$userName = 'root';
+	$userName = 'bd3265329a4f5a';
 	//khai báo biến password
-	$passWord = '';
+	$passWord = 'ac92706f';
 	// khai báo biến databaseName
-	$databaseName = 'ql_tourdulich';
+	$databaseName = 'heroku_1fffb9d0d864fd6';
 	// khởi tạo kết nối
 	try {
 	    $connect = new PDO('mysql:host=' . $hostName . ';dbname=' . $databaseName, $userName, $passWord);
