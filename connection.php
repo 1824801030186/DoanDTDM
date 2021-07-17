@@ -2,11 +2,11 @@
 	<?php
 	$hostName = 'us-cdbr-east-04.cleardb.com';
 	// khai báo biến username
-	$userName = 'bc98a4880a75fc';
+	$userName = 'bbacc88c08f82b';
 	//khai báo biến password
-	$passWord = '41fe92ef';
+	$passWord = '9ba2f081';
 	// khai báo biến databaseName
-	$databaseName = 'heroku_1ed2f66512e4afc';
+	$databaseName = 'heroku_bd0471f8f629435';
 	// khởi tạo kết nối
 	try {
 	    $connect = new PDO('mysql:host=' . $hostName . ';dbname=' . $databaseName, $userName, $passWord);
